@@ -14,9 +14,9 @@
 		B42D894426BAB802000FD120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42D894226BAB802000FD120 /* Main.storyboard */; };
 		B42D894626BAB804000FD120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42D894526BAB804000FD120 /* Assets.xcassets */; };
 		B42D894926BAB804000FD120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42D894726BAB804000FD120 /* LaunchScreen.storyboard */; };
+		B4A29E8726DFC5BE00933494 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A29E8626DFC5BE00933494 /* ColorExtension.swift */; };
 		B4C8222926BC5F0600422A11 /* CoinCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C8222826BC5F0600422A11 /* CoinCheck.swift */; };
 		B4D5AA6F26D3B1D20045D35D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D5AA6E26D3B1D20045D35D /* GradientView.swift */; };
-		B4D5AA7126D3BBFB0045D35D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D5AA7026D3BBFB0045D35D /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +29,10 @@
 		B42D894526BAB804000FD120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42D894826BAB804000FD120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B42D894A26BAB804000FD120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A29E8626DFC5BE00933494 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		B4C8220226BAE8E200422A11 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C8222826BC5F0600422A11 /* CoinCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCheck.swift; sourceTree = "<group>"; };
 		B4D5AA6E26D3B1D20045D35D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		B4D5AA7026D3BBFB0045D35D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		B55838F97ECA9F612C26CA98 /* Pods-bitcoin-color-gradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-color-gradient.debug.xcconfig"; path = "Target Support Files/Pods-bitcoin-color-gradient/Pods-bitcoin-color-gradient.debug.xcconfig"; sourceTree = "<group>"; };
 		E90346EA32C831B9B04046D7 /* Pods-bitcoin-color-gradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-color-gradient.release.xcconfig"; path = "Target Support Files/Pods-bitcoin-color-gradient/Pods-bitcoin-color-gradient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,8 +82,8 @@
 				B42D893C26BAB802000FD120 /* AppDelegate.swift */,
 				B42D893E26BAB802000FD120 /* SceneDelegate.swift */,
 				B4C8222826BC5F0600422A11 /* CoinCheck.swift */,
+				B4A29E8626DFC5BE00933494 /* ColorExtension.swift */,
 				B4D5AA6E26D3B1D20045D35D /* GradientView.swift */,
-				B4D5AA7026D3BBFB0045D35D /* ColorExtension.swift */,
 				B42D894026BAB802000FD120 /* ViewController.swift */,
 				B42D894226BAB802000FD120 /* Main.storyboard */,
 				B42D894526BAB804000FD120 /* Assets.xcassets */,
@@ -219,7 +219,7 @@
 				B42D894126BAB802000FD120 /* ViewController.swift in Sources */,
 				B4C8222926BC5F0600422A11 /* CoinCheck.swift in Sources */,
 				B4D5AA6F26D3B1D20045D35D /* GradientView.swift in Sources */,
-				B4D5AA7126D3BBFB0045D35D /* ColorExtension.swift in Sources */,
+				B4A29E8726DFC5BE00933494 /* ColorExtension.swift in Sources */,
 				B42D893D26BAB802000FD120 /* AppDelegate.swift in Sources */,
 				B42D893F26BAB802000FD120 /* SceneDelegate.swift in Sources */,
 			);

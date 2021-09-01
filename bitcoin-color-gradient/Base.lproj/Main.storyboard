@@ -16,17 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbK-B8-o39">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbK-B8-o39" customClass="GradientView" customModule="bitcoin_color_gradient">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAx-SH-UUD">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="updateCoinDeskButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqj-Id-yrV"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4J-55-QBF">
                                 <rect key="frame" x="197.5" y="165" width="19" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
@@ -44,22 +37,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jbK-B8-o39" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5kx-PH-yBg"/>
-                            <constraint firstItem="zKG-nJ-a4u" firstAttribute="centerX" secondItem="RAx-SH-UUD" secondAttribute="centerX" id="I48-Es-QAS"/>
-                            <constraint firstItem="RAx-SH-UUD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Lkl-NH-ySh"/>
-                            <constraint firstItem="RAx-SH-UUD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="U2L-46-RgG"/>
-                            <constraint firstItem="x4J-55-QBF" firstAttribute="centerX" secondItem="RAx-SH-UUD" secondAttribute="centerX" id="Ycl-OS-HiR"/>
+                            <constraint firstItem="zKG-nJ-a4u" firstAttribute="centerX" secondItem="jbK-B8-o39" secondAttribute="centerX" id="Yi7-8h-jmO"/>
                             <constraint firstAttribute="bottom" secondItem="jbK-B8-o39" secondAttribute="bottom" id="cOc-y8-hNK"/>
                             <constraint firstItem="jbK-B8-o39" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hru-dO-OFj"/>
-                            <constraint firstItem="RAx-SH-UUD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jeo-g0-E26"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RAx-SH-UUD" secondAttribute="trailing" constant="20" id="mzb-cL-xUN"/>
                             <constraint firstItem="zKG-nJ-a4u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="rRP-ed-fcl"/>
                             <constraint firstItem="jbK-B8-o39" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="swI-Vu-VYg"/>
+                            <constraint firstItem="zKG-nJ-a4u" firstAttribute="centerX" secondItem="x4J-55-QBF" secondAttribute="centerX" id="thd-sL-m43"/>
                             <constraint firstItem="x4J-55-QBF" firstAttribute="top" secondItem="zKG-nJ-a4u" secondAttribute="bottom" constant="8" id="yf0-gn-8eI"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="animatedGradientView" destination="jbK-B8-o39" id="U7M-8W-Hn5"/>
-                        <outlet property="getBtcButton" destination="RAx-SH-UUD" id="NVs-u7-Ukd"/>
+                        <outlet property="gradientView" destination="jbK-B8-o39" id="SaP-Rz-6Ts"/>
                         <outlet property="priceLabel" destination="x4J-55-QBF" id="GSE-BZ-8uM"/>
                     </connections>
                 </viewController>
